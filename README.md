@@ -26,35 +26,38 @@
 
 # GBOFE Usage Tutorial
 
-1. Download the code: Locate the GBOFE folder and download the source code to your computer.
+## 1. Download the code
+Locate the **GBOFE** folder and download the source code to your computer.
 
-2. Run the script: Open the main file in your preferred Python IDE and run it.
+## 2. Run the script
+Open the main file in your preferred Python IDE and run it.
 
-3.Choose the flow-enforcement method: Select the technique you wish to apply:
+## 3. Choose the flow-enforcement method
+In the interface, select the technique you wish to apply:
 
-Normal Excavation
+- **Normal Excavation**
+- **Normal Excavation Modified**
+- **r.carve**
+- **Gradient-Based Optimized Flow Enforcement (GBOFE)**
 
-Normal Excavation Modified
+## 4. Specify the input DEM
+Enter the full path to the Digital Elevation Model (including file name and extension), e.g. `FABDEM.tif`.
 
-r.carve
+## 5. Specify the drainage network
+Enter the full path to the drainage vector file (including file name and extension), e.g. `Drainage.shp`.
 
-Gradient-Based Optimized Flow Enforcement (GBOFE)
+## 6. Set the carving depth *(if applicable)*
+For **Normal Excavation**, **Normal Excavation Modified**, or **r.carve**, specify the carving depth in metres to be applied along the drainage network.
 
-4. Specify the input DEM: Enter the full path to the Digital Elevation Model (including file name and extension), e.g. FABDEM.tif.
+## 7. Set the gradient *(GBOFE only)*
+If you select **GBOFE**, define the slope-reduction gradient `G > 0`. A recommended default is `G = 0.001`.
 
-5. Specify the drainage network: Enter the full path to the drainage vector file (including file name and extension), e.g. Drainage.shp.
+## 8. Configure the output
+Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
 
-Set the carving depth (if applicable):
+> **Note**  
+> Ensure the drainage network is digitized from upstream (source) to downstream (outlet).
 
-6.For Normal Excavation, Normal Excavation Modified, or r.carve, specify the carving depth (in metres) applied along the drainage network.
-
-Set the gradient (GBOFE only):
-
-7.If you select GBOFE, define the slope-reduction gradient 𝐺>0. A recommended default is 𝐺=0.001
-
-8. Configure the output: Provide the path and file name for the corrected DEM, e.g. FABDEM_burn.tif.
-
-Note: Ensure your drainage network is digitised from upstream (source) to downstream (outlet).
 
 
 
