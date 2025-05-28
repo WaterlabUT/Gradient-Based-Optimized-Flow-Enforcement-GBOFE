@@ -59,7 +59,8 @@ Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
 > Ensure the drainage network is digitized from upstream (source) to downstream (outlet).
 
 
-## Ejemplo de aplicación  
+
+<h1 align="center">Ejemplo de aplicación</h1>   
 **Subzona hidrográfica de los ríos Recio y Venadillo**
 <p align="center"> 
   <img src="https://github.com/user-attachments/assets/82b61a72-99f0-4332-a971-23d0920bc0da"width="600">
