@@ -70,7 +70,7 @@ Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
    - `FABDEM.tif`: Digital Elevation Model (FABDEM) of the study area.  
    - `Drainage.shp`: Vector drainage network of the Recio and Venadillo rivers.
 
-2. **Run the GBoFE code** following steps 1 and 2 of the main tutorial.
+2. **Run the GBOFE code** following steps 1 and 2 of the main tutorial.
 
 3. **Specify the path to the Digital Elevation Model** (`FABDEM.tif`).
 
@@ -78,5 +78,5 @@ Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
 
 5. **Configure the flow correction method:**
    - For **Normal Excavation**, **Normal Excavation Modified**, or **r.carve**, enter the desired *carving* value.  
-   - For **Gradient-Based Optimized Flow Enforcement (GBoFE)**, enter the gradient parameter `G`. A standard value of `G = 0.001` is recommended.
+   - For **Gradient-Based Optimized Flow Enforcement (GBOFE)**, enter the gradient parameter `G`. A standard value of `G = 0.001` is recommended.
 
