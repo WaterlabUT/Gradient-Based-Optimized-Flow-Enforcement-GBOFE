@@ -22,9 +22,7 @@
 - **networkx**  
 - **richdem**
 
-<h1 align="center">Tutorial</h1>
-
-# GBOFE Usage Tutorial
+<h1 align="center">GBOFE Usage Tutorial</h1>
 
 ## 1. Download the code
 Locate the **GBOFE** folder and download the source code to your computer.
