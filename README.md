@@ -1,4 +1,4 @@
-# <h1 align="center"> Gradient Based Optimized Flow Enforcement GBOFE
+# <h1 align="center"> Gradient Based Optimized Flow Enforcement-GBOFE
 
 ## New Algorithm for Flow Enforcement to Correct Surface Drainage Patterns and Improve Boundary Delimitations Derived from DEM
 <p align="center"> 
