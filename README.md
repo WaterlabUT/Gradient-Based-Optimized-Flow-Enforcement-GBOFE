@@ -2,7 +2,7 @@
 
 ## New Algorithm for Flow Enforcement to Correct Surface Drainage Patterns and Improve Boundary Delimitations Derived from DEM
 <p align="center"> 
-  <img src="https://github.com/user-attachments/assets/b7073e1f-812d-49da-a8d7-6f569e1c8540"width="1500">
+  <img src="https://github.com/user-attachments/assets/b7073e1f-812d-49da-a8d7-6f569e1c8540"width="800">
 </p> 
 
 <h1 align="center">Software required</h1>
@@ -61,6 +61,10 @@ Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
 
 ## Ejemplo de aplicación  
 **Subzona hidrográfica de los ríos Recio y Venadillo**
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/82b61a72-99f0-4332-a971-23d0920bc0da"width="600">
+</p> 
+
 
 1. **Descargue la carpeta `Example_Data`, que incluye:**
    - `FABDEM.tif`: modelo digital de elevación (FABDEM) de la zona de estudio.  
