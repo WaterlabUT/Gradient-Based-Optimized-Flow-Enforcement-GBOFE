@@ -59,5 +59,21 @@ Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
 > Ensure the drainage network is digitized from upstream (source) to downstream (outlet).
 
 
+## Ejemplo de aplicación  
+**Subzona hidrográfica de los ríos Recio y Venadillo**
+
+1. **Descargue la carpeta `Example_Data`, que incluye:**
+   - `FABDEM.tif`: modelo digital de elevación (FABDEM) de la zona de estudio.  
+   - `Drainage.shp`: red de drenaje vectorial de los ríos Recio y Venadillo.
+
+2. **Ejecute el código GBoFE** siguiendo los pasos 1 y 2 indicados en el tutorial principal.
+
+3. **Especifique la ruta del modelo digital de elevación** (`FABDEM.tif`).
+
+4. **Especifique la ruta de la red de drenaje vectorial** (`Drainage.shp`).
+
+5. **Configure el método de corrección de flujo:**
+   - Para **Normal Excavation**, **Normal Excavation Modified** o **r.carve**, introduzca el valor de *carving* que desee utilizar.  
+   - Para **Gradient-Based Optimized Flow Enforcement (GBoFE)**, introduzca el parámetro de gradiente `G`. Se recomienda `G = 0.001` como valor estándar.
 
 
