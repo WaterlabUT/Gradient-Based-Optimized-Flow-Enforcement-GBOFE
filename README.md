@@ -56,29 +56,27 @@ If you select **GBOFE**, define the slope-reduction gradient `G > 0`. A recommen
 Provide the path and file name for the corrected DEM, e.g. `FABDEM_burn.tif`.
 
 > **Note**  
-> Ensure the drainage network is digitized from upstream (source) to downstream (outlet).
+> It is essential that the user digitizes the drainage network from upstream (source) to downstream (outlet). Additionally, it is crucial that both the Digital Elevation Model (DEM) and the drainage network share the same spatial reference system (projection and datum) to ensure proper alignment and spatial analysis.
 
-<h1 align="center">Ejemplo de aplicación</h1>
+<h1 align="center">Application Example</h1>
 
-**Subzona hidrográfica de los ríos Recio y Venadillo**
+**Hydrographic Subzone of the Recio and Venadillo Rivers**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/82b61a72-99f0-4332-a971-23d0920bc0da" width="600">
 </p>
 
+1. **Download the `Example_Data` folder, which includes:**
+   - `FABDEM.tif`: Digital Elevation Model (FABDEM) of the study area.  
+   - `Drainage.shp`: Vector drainage network of the Recio and Venadillo rivers.
 
-1. **Descargue la carpeta `Example_Data`, que incluye:**
-   - `FABDEM.tif`: modelo digital de elevación (FABDEM) de la zona de estudio.  
-   - `Drainage.shp`: red de drenaje vectorial de los ríos Recio y Venadillo.
+2. **Run the GBoFE code** following steps 1 and 2 of the main tutorial.
 
-2. **Ejecute el código GBoFE** siguiendo los pasos 1 y 2 indicados en el tutorial principal.
+3. **Specify the path to the Digital Elevation Model** (`FABDEM.tif`).
 
-3. **Especifique la ruta del modelo digital de elevación** (`FABDEM.tif`).
+4. **Specify the path to the vector drainage network** (`Drainage.shp`).
 
-4. **Especifique la ruta de la red de drenaje vectorial** (`Drainage.shp`).
-
-5. **Configure el método de corrección de flujo:**
-   - Para **Normal Excavation**, **Normal Excavation Modified** o **r.carve**, introduzca el valor de *carving* que desee utilizar.  
-   - Para **Gradient-Based Optimized Flow Enforcement (GBoFE)**, introduzca el parámetro de gradiente `G`. Se recomienda `G = 0.001` como valor estándar.
-
+5. **Configure the flow correction method:**
+   - For **Normal Excavation**, **Normal Excavation Modified**, or **r.carve**, enter the desired *carving* value.  
+   - For **Gradient-Based Optimized Flow Enforcement (GBoFE)**, enter the gradient parameter `G`. A standard value of `G = 0.001` is recommended.
 
