@@ -5,13 +5,11 @@
 [![Rasterio](https://img.shields.io/badge/Rasterio-1.4.3+-green.svg)](https://rasterio.readthedocs.io/)
 [![GeoPandas](https://img.shields.io/badge/GeoPandas-1.0.1+-lightblue.svg)](https://geopandas.org/)
 [![Version](https://img.shields.io/badge/Version-0.1-lightgrey.svg)]() <!-- Assuming the version is 0.1 based on __init__.py -->
-<!-- Consider adding a license badge if you have one, for example:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
--->
 
 <h3 align="center">A New Algorithm for Flow Enforcement to Correct Surface Drainage Patterns and Improve Watershed Delineations Derived from Digital Elevation Models (DEMs)</h3>
 
-<p style="text-align: center;"> 
+<p align="center"> 
   <img src="https://github.com/user-attachments/assets/b7073e1f-812d-49da-a8d7-6f569e1c8540" width="700" alt="GBOFE conceptual diagram">
 </p> 
 
