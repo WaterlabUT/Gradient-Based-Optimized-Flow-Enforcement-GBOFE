@@ -126,6 +126,6 @@ Contributions are welcome. If you wish to contribute to the project, please cons
 Please ensure your code follows the project's style guides and includes the necessary tests.
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
