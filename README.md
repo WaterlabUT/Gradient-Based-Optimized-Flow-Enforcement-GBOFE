@@ -116,7 +116,6 @@ The GBOFE project is organized into the following main modules within the `gbofe
 *   `main.py`: Entry point of the application, handles the main logic and user interaction.
 
 ## Contributions
-<!-- If you are open to contributions, you can add a section like this: -->
 Contributions are welcome. If you wish to contribute to the project, please consider the following:
 1.  Fork the repository.
 2.  Create a new branch for your feature or fix (`git checkout -b feature/new-feature` or `git checkout -b fix/bug-fix`).
@@ -127,8 +126,6 @@ Contributions are welcome. If you wish to contribute to the project, please cons
 Please ensure your code follows the project's style guides and includes the necessary tests.
 
 ## License
-<!-- Specify your project's license here. For example: -->
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-<!-- If you don't have a LICENSE file, now is a good time to add one. -->
 
 ---
